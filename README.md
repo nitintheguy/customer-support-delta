@@ -1,4 +1,4 @@
-# Delta Support Agent — Hiver SDE Intern Take-Home
+# Delta Support Agent: Hiver SDE Intern Take-Home
 
 An AI support agent for Delta Air Lines' Twitter customer support, built on the
 [Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter)
