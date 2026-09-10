@@ -58,7 +58,11 @@ this call was genuinely close.
 | `LOW` | Routine, no real harm, easily resolved |
 | `MEDIUM` | Real inconvenience, single disruption, moderate frustration |
 | `HIGH` | ≥2 consecutive disruptions, 4+ hr operational delay/stall, stranded passenger, repeated service failure, serious accessibility issue |
-| `CRITICAL` | Safety/security/TSA issue, medical issue, lost medication/passport |
+| `CRITICAL` | **Active/unresolved** safety, security, or TSA issue; **active/unresolved** medical emergency; lost medication/passport that is needed imminently (e.g. before a flight departs) |
+
+**Important distinction:** `CRITICAL` requires the situation to be active and unresolved right now — not just a mention of a medical topic. A calm, advance question about policy (e.g. "can I bring my child's medication through security, will it be refrigerated in-flight?") is a `POLICY_FEE_INQUIRY`, not `CRITICAL`, because there's no active emergency — the customer is planning ahead, not in crisis. By contrast, "my daughter's insulin was left behind at security and our flight boards in 20 minutes" is `CRITICAL`, since the harm is imminent and unresolved.
+
+When labeling, ask: *is something actively going wrong right now, or is this a question about a hypothetical/future situation?* Only the former qualifies as CRITICAL on medical/safety grounds.
 
 Severity signals compose — a message can trigger HIGH or CRITICAL through any
 one of several independent signals, not a fixed checklist. When labeling,
